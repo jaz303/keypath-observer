@@ -2,7 +2,7 @@
 
 ## Keypaths
 
-A `keypath` is an array is a non-empty array consisting of strings and integers. A single element in this array is called a segment.
+A `keypath` is a non-empty array consisting of strings and integers. A single element in this array is called a segment.
 
 Wildcards are supported; when supplying a keypath to observe, use `?` to match any value for the current segment, or `*` to match all keypaths from this point, regardless of length.
 
@@ -19,6 +19,8 @@ Events are designated by strings and may be namespaced with `:`. Events propagat
 ## API
 
 #### `var tree = require('keypath-observer')()`
+
+Create a new keypath observer instance.
 
 #### `tree.observe(keypath, cb, [ctx])`
 
