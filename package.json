@@ -1,0 +1,14 @@
+{
+  "name": "keypath-observer",
+  "version": "1.0.0",
+  "description": "Attach callback functions to arbitrary keypaths, with support for hierarchical events",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/all.js"
+  },
+  "author": "Jason Frame <jason@onehackoranother.com> (http://jasonframe.co.uk)",
+  "license": "ISC",
+  "dependencies": {
+    "tape": "^4.0.0"
+  }
+}
